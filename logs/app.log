@@ -1,0 +1,1932 @@
+[2025-02-06 22:39:33] [INFO] Database connection established
+[2025-02-06 22:39:33] [DEBUG] Rendering template: front/home.twig
+[2025-02-06 22:40:34] [INFO] Database connection established
+[2025-02-06 22:40:34] [DEBUG] Rendering template: front/login.twig
+[2025-02-06 22:40:37] [INFO] Database connection established
+[2025-02-06 22:41:46] [INFO] Database connection established
+[2025-02-06 22:41:46] [ERROR] Invalid or missing CSRF token on login attempt
+[2025-02-06 22:41:46] [DEBUG] Rendering template: front/auth/login.twig
+[2025-02-06 22:42:01] [INFO] Database connection established
+[2025-02-06 22:42:01] [ERROR] Invalid or missing CSRF token on login attempt
+[2025-02-06 22:42:01] [DEBUG] Rendering template: front/login.twig
+[2025-02-06 22:42:05] [INFO] Database connection established
+[2025-02-06 22:42:05] [DEBUG] Query executed: SELECT * FROM users WHERE email = ?
+[2025-02-06 22:42:06] [INFO] Database connection established
+[2025-02-06 22:42:06] [INFO] Admin accessed dashboard
+[2025-02-06 22:42:06] [DEBUG] Query executed: SELECT * FROM users
+[2025-02-06 22:42:06] [DEBUG] Query executed: SELECT * FROM articles
+[2025-02-06 22:42:06] [DEBUG] Rendering template: back/dashboard.twig
+[2025-02-06 22:42:13] [INFO] Database connection established
+[2025-02-06 22:42:13] [INFO] Admin accessed dashboard
+[2025-02-06 22:42:13] [DEBUG] Query executed: SELECT * FROM users
+[2025-02-06 22:42:13] [DEBUG] Query executed: SELECT * FROM articles
+[2025-02-06 22:42:13] [DEBUG] Rendering template: back/dashboard.twig
+[2025-02-06 22:42:15] [INFO] Database connection established
+[2025-02-06 22:42:15] [INFO] Admin accessed users list
+[2025-02-06 22:42:15] [DEBUG] Query executed: SELECT * FROM users
+[2025-02-06 22:42:15] [DEBUG] Rendering template: back/user.twig
+[2025-02-06 22:42:21] [INFO] Database connection established
+[2025-02-06 22:42:21] [INFO] Admin accessed dashboard
+[2025-02-06 22:42:21] [DEBUG] Query executed: SELECT * FROM users
+[2025-02-06 22:42:21] [DEBUG] Query executed: SELECT * FROM articles
+[2025-02-06 22:42:21] [DEBUG] Rendering template: back/dashboard.twig
+[2025-02-06 22:42:28] [INFO] Database connection established
+[2025-02-06 22:42:28] [INFO] Database connection established
+[2025-02-06 22:42:28] [DEBUG] Rendering template: front/home.twig
+[2025-02-06 22:42:31] [INFO] Database connection established
+[2025-02-06 22:42:31] [DEBUG] Rendering template: front/login.twig
+[2025-02-06 22:42:36] [INFO] Database connection established
+[2025-02-06 22:42:36] [ERROR] Invalid or missing CSRF token on login attempt
+[2025-02-06 22:42:36] [DEBUG] Rendering template: front/login.twig
+[2025-02-06 22:45:15] [INFO] Database connection established
+[2025-02-06 22:45:15] [ERROR] Invalid or missing CSRF token on login attempt
+[2025-02-06 22:45:15] [DEBUG] Rendering template: front/login.twig
+[2025-02-06 22:45:17] [INFO] Database connection established
+[2025-02-06 22:45:17] [DEBUG] Query executed: SELECT * FROM users WHERE email = ?
+[2025-02-06 22:45:17] [INFO] Database connection established
+[2025-02-06 22:45:18] [INFO] Admin accessed dashboard
+[2025-02-06 22:45:18] [DEBUG] Query executed: SELECT * FROM users
+[2025-02-06 22:45:18] [DEBUG] Query executed: SELECT * FROM articles
+[2025-02-06 22:45:18] [DEBUG] Rendering template: back/dashboard.twig
+[2025-02-06 22:45:19] [INFO] Database connection established
+[2025-02-06 22:45:19] [INFO] Database connection established
+[2025-02-06 22:45:20] [DEBUG] Rendering template: front/home.twig
+[2025-02-06 22:45:21] [INFO] Database connection established
+[2025-02-06 22:45:21] [DEBUG] Rendering template: front/login.twig
+[2025-02-06 22:45:26] [INFO] Database connection established
+[2025-02-06 22:45:26] [ERROR] Invalid or missing CSRF token on login attempt
+[2025-02-06 22:45:26] [DEBUG] Rendering template: front/login.twig
+[2025-02-06 22:45:32] [INFO] Database connection established
+[2025-02-06 22:45:32] [DEBUG] Query executed: SELECT * FROM users WHERE email = ?
+[2025-02-06 22:45:32] [INFO] Database connection established
+[2025-02-06 22:45:32] [INFO] Articles page accessed
+[2025-02-06 22:45:32] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-06 22:45:32] [DEBUG] Rendering template: front/article.twig
+[2025-02-06 22:45:44] [INFO] Database connection established
+[2025-02-06 22:45:44] [INFO] Database connection established
+[2025-02-06 22:45:44] [DEBUG] Rendering template: front/home.twig
+[2025-02-06 22:45:47] [INFO] Database connection established
+[2025-02-06 22:45:47] [DEBUG] Rendering template: front/signup.twig
+[2025-02-06 22:46:03] [INFO] Database connection established
+[2025-02-06 22:47:22] [INFO] Database connection established
+[2025-02-06 22:47:22] [DEBUG] Rendering template: front/signup.twig
+[2025-02-06 22:49:01] [INFO] Database connection established
+[2025-02-06 22:49:01] [DEBUG] Rendering template: front/signup.twig
+[2025-02-06 22:50:01] [INFO] Database connection established
+[2025-02-06 22:50:01] [DEBUG] Rendering template: front/signup.twig
+[2025-02-06 22:50:04] [INFO] Database connection established
+[2025-02-06 22:50:04] [DEBUG] Rendering template: front/signup.twig
+[2025-02-06 22:50:20] [INFO] Database connection established
+[2025-02-06 22:50:20] [DEBUG] Rendering template: front/signup.twig
+[2025-02-06 22:52:55] [INFO] Database connection established
+[2025-02-06 22:52:55] [DEBUG] Rendering template: front/signup.twig
+[2025-02-06 22:53:06] [INFO] Database connection established
+[2025-02-06 22:53:06] [DEBUG] Rendering template: front/signup.twig
+[2025-02-06 22:53:20] [INFO] Database connection established
+[2025-02-06 22:53:20] [DEBUG] Rendering template: front/signup.twig
+[2025-02-06 22:53:47] [INFO] Database connection established
+[2025-02-06 22:53:47] [DEBUG] Rendering template: front/signup.twig
+[2025-02-06 22:54:53] [INFO] Database connection established
+[2025-02-06 22:54:53] [DEBUG] Query executed: INSERT INTO users (username, email, password, role) VALUES (?, ?, ?, 'user')
+[2025-02-06 22:54:53] [INFO] Database connection established
+[2025-02-06 22:54:53] [DEBUG] Rendering template: front/login.twig
+[2025-02-06 22:57:10] [INFO] Database connection established
+[2025-02-06 22:57:10] [DEBUG] Rendering template: front/signup.twig
+[2025-02-06 22:57:11] [INFO] Database connection established
+[2025-02-06 22:57:11] [DEBUG] Rendering template: front/signup.twig
+[2025-02-06 22:57:14] [INFO] Database connection established
+[2025-02-06 22:57:14] [DEBUG] Rendering template: front/signup.twig
+[2025-02-06 22:57:34] [INFO] Database connection established
+[2025-02-06 22:57:34] [DEBUG] Query executed: INSERT INTO users (username, email, password, role) VALUES (?, ?, ?, 'user')
+[2025-02-06 22:57:34] [INFO] Database connection established
+[2025-02-06 22:57:34] [DEBUG] Rendering template: front/login.twig
+[2025-02-06 23:01:24] [INFO] Database connection established
+[2025-02-06 23:01:25] [ERROR] Invalid or missing CSRF token on login attempt
+[2025-02-06 23:01:25] [DEBUG] Rendering template: front/login.twig
+[2025-02-06 23:05:06] [INFO] Database connection established
+[2025-02-06 23:05:06] [DEBUG] Query executed: SELECT * FROM users WHERE email = ?
+[2025-02-06 23:05:06] [INFO] Database connection established
+[2025-02-06 23:05:06] [INFO] Articles page accessed
+[2025-02-06 23:05:06] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-06 23:05:06] [DEBUG] Rendering template: front/article.twig
+[2025-02-06 23:05:35] [INFO] Database connection established
+[2025-02-06 23:05:36] [INFO] Database connection established
+[2025-02-06 23:05:36] [DEBUG] Rendering template: front/home.twig
+[2025-02-06 23:05:40] [INFO] Database connection established
+[2025-02-06 23:05:40] [DEBUG] Rendering template: front/login.twig
+[2025-02-06 23:05:46] [INFO] Database connection established
+[2025-02-06 23:05:46] [DEBUG] Query executed: SELECT * FROM users WHERE email = ?
+[2025-02-06 23:05:46] [INFO] Database connection established
+[2025-02-06 23:05:46] [INFO] Admin accessed dashboard
+[2025-02-06 23:05:46] [DEBUG] Query executed: SELECT * FROM users
+[2025-02-06 23:05:46] [DEBUG] Query executed: SELECT * FROM articles
+[2025-02-06 23:05:46] [DEBUG] Rendering template: back/dashboard.twig
+[2025-02-06 23:08:29] [INFO] Database connection established
+[2025-02-06 23:08:29] [INFO] Database connection established
+[2025-02-06 23:08:29] [DEBUG] Rendering template: front/home.twig
+[2025-02-06 23:08:31] [INFO] Database connection established
+[2025-02-06 23:08:31] [DEBUG] Rendering template: front/login.twig
+[2025-02-06 23:09:50] [INFO] Database connection established
+[2025-02-06 23:09:50] [DEBUG] Rendering template: front/login.twig
+[2025-02-06 23:10:50] [INFO] Database connection established
+[2025-02-06 23:10:50] [DEBUG] Rendering template: front/login.twig
+[2025-02-06 23:11:27] [INFO] Database connection established
+[2025-02-06 23:11:27] [DEBUG] Rendering template: front/signup.twig
+[2025-02-06 23:12:47] [INFO] Database connection established
+[2025-02-06 23:12:47] [DEBUG] Rendering template: front/login.twig
+[2025-02-06 23:12:52] [INFO] Database connection established
+[2025-02-06 23:12:52] [DEBUG] Rendering template: front/login.twig
+[2025-02-06 23:13:25] [INFO] Database connection established
+[2025-02-06 23:13:25] [DEBUG] Rendering template: front/signup.twig
+[2025-02-06 23:13:27] [INFO] Database connection established
+[2025-02-06 23:13:27] [DEBUG] Rendering template: front/login.twig
+[2025-02-06 23:13:40] [INFO] Database connection established
+[2025-02-06 23:13:40] [DEBUG] Rendering template: front/login.twig
+[2025-02-06 23:13:47] [INFO] Database connection established
+[2025-02-06 23:13:47] [DEBUG] Rendering template: front/signup.twig
+[2025-02-06 23:13:56] [INFO] Database connection established
+[2025-02-06 23:13:56] [DEBUG] Rendering template: front/home.twig
+[2025-02-06 23:14:55] [INFO] Database connection established
+[2025-02-06 23:14:55] [DEBUG] Rendering template: front/login.twig
+[2025-02-06 23:15:01] [INFO] Database connection established
+[2025-02-06 23:15:01] [DEBUG] Query executed: SELECT * FROM users WHERE email = ?
+[2025-02-06 23:15:01] [INFO] Database connection established
+[2025-02-06 23:15:01] [INFO] Articles page accessed
+[2025-02-06 23:15:01] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-06 23:15:01] [DEBUG] Rendering template: front/article.twig
+[2025-02-06 23:16:56] [INFO] Database connection established
+[2025-02-06 23:16:56] [INFO] Database connection established
+[2025-02-06 23:16:56] [DEBUG] Rendering template: front/home.twig
+[2025-02-06 23:16:58] [INFO] Database connection established
+[2025-02-06 23:16:58] [DEBUG] Rendering template: front/login.twig
+[2025-02-06 23:17:02] [INFO] Database connection established
+[2025-02-06 23:17:02] [DEBUG] Query executed: SELECT * FROM users WHERE email = ?
+[2025-02-06 23:17:03] [INFO] Database connection established
+[2025-02-06 23:17:03] [INFO] Admin accessed dashboard
+[2025-02-06 23:17:03] [DEBUG] Query executed: SELECT * FROM users
+[2025-02-06 23:17:03] [DEBUG] Query executed: SELECT * FROM articles
+[2025-02-06 23:17:03] [DEBUG] Rendering template: back/dashboard.twig
+[2025-02-06 23:17:07] [INFO] Database connection established
+[2025-02-06 23:17:07] [INFO] Admin accessed users list
+[2025-02-06 23:17:07] [DEBUG] Query executed: SELECT * FROM users
+[2025-02-06 23:17:07] [DEBUG] Rendering template: back/user.twig
+[2025-02-06 23:18:05] [INFO] Database connection established
+[2025-02-06 23:18:05] [INFO] Admin accessed users list
+[2025-02-06 23:18:05] [DEBUG] Query executed: SELECT * FROM users
+[2025-02-06 23:18:05] [DEBUG] Rendering template: back/user.twig
+[2025-02-06 23:18:36] [INFO] Database connection established
+[2025-02-06 23:18:36] [INFO] Admin accessed users list
+[2025-02-06 23:18:36] [DEBUG] Query executed: SELECT * FROM users
+[2025-02-06 23:18:36] [DEBUG] Rendering template: back/user.twig
+[2025-02-06 23:27:24] [INFO] Database connection established
+[2025-02-06 23:27:24] [INFO] Admin accessed users list
+[2025-02-06 23:27:24] [DEBUG] Query executed: SELECT * FROM users
+[2025-02-06 23:27:24] [DEBUG] Rendering template: back/user.twig
+[2025-02-06 23:27:27] [INFO] Database connection established
+[2025-02-06 23:27:27] [INFO] Admin accessed users list
+[2025-02-06 23:27:27] [DEBUG] Query executed: SELECT * FROM users
+[2025-02-06 23:27:27] [DEBUG] Rendering template: back/user.twig
+[2025-02-06 23:29:25] [INFO] Database connection established
+[2025-02-06 23:29:25] [INFO] Admin accessed users list
+[2025-02-06 23:29:25] [DEBUG] Query executed: SELECT * FROM users
+[2025-02-06 23:29:25] [DEBUG] Rendering template: back/user.twig
+[2025-02-06 23:40:48] [INFO] Database connection established
+[2025-02-06 23:40:48] [INFO] Admin accessed users list
+[2025-02-06 23:40:48] [DEBUG] Query executed: SELECT * FROM users
+[2025-02-06 23:40:48] [DEBUG] Rendering template: back/user.twig
+[2025-02-06 23:40:50] [INFO] Database connection established
+[2025-02-06 23:40:50] [INFO] Admin accessed users list
+[2025-02-06 23:40:50] [DEBUG] Query executed: SELECT * FROM users
+[2025-02-06 23:40:50] [DEBUG] Rendering template: back/user.twig
+[2025-02-06 23:42:24] [INFO] Database connection established
+[2025-02-06 23:42:24] [INFO] Database connection established
+[2025-02-06 23:42:24] [DEBUG] Rendering template: front/home.twig
+[2025-02-06 23:42:36] [INFO] Database connection established
+[2025-02-06 23:42:36] [DEBUG] Rendering template: front/login.twig
+[2025-02-06 23:42:41] [INFO] Database connection established
+[2025-02-06 23:42:41] [DEBUG] Query executed: SELECT * FROM users WHERE email = ?
+[2025-02-06 23:42:41] [INFO] Database connection established
+[2025-02-06 23:42:41] [INFO] Articles page accessed
+[2025-02-06 23:42:41] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-06 23:42:41] [DEBUG] Rendering template: front/article.twig
+[2025-02-06 23:45:52] [INFO] Database connection established
+[2025-02-06 23:45:52] [INFO] Articles page accessed
+[2025-02-06 23:45:52] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-06 23:45:52] [DEBUG] Rendering template: front/article.twig
+[2025-02-06 23:47:49] [INFO] Database connection established
+[2025-02-06 23:47:49] [INFO] Articles page accessed
+[2025-02-06 23:47:49] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-06 23:47:49] [DEBUG] Rendering template: front/article.twig
+[2025-02-06 23:50:55] [INFO] Database connection established
+[2025-02-06 23:50:55] [DEBUG] Rendering template: front/create.twig
+[2025-02-06 23:51:24] [INFO] Database connection established
+[2025-02-06 23:51:24] [DEBUG] Rendering template: front/create.twig
+[2025-02-06 23:51:39] [INFO] Database connection established
+[2025-02-06 23:51:39] [DEBUG] Rendering template: front/create.twig
+[2025-02-06 23:51:56] [INFO] Database connection established
+[2025-02-06 23:51:56] [ERROR] Query failed: INSERT INTO articles (title, content, user_id, status) VALUES (?, ?, ?, ?) - Error: SQLSTATE[42703]: Undefined column: 7 ERREUR:  la colonne « status » de la relation « articles » n'existe pas
+LINE 1: INSERT INTO articles (title, content, user_id, status) VALUE...
+                                                       ^
+[2025-02-06 23:52:54] [INFO] Database connection established
+[2025-02-06 23:52:54] [DEBUG] Rendering template: front/create.twig
+[2025-02-06 23:52:57] [INFO] Database connection established
+[2025-02-06 23:52:57] [DEBUG] Query executed: INSERT INTO articles (title, content, user_id) VALUES (?, ?, ?)
+[2025-02-06 23:52:57] [INFO] New article created
+[2025-02-06 23:52:57] [INFO] Database connection established
+[2025-02-06 23:52:57] [INFO] Articles page accessed
+[2025-02-06 23:52:57] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-06 23:52:57] [DEBUG] Rendering template: front/article.twig
+[2025-02-06 23:53:05] [INFO] Database connection established
+[2025-02-06 23:53:05] [INFO] Articles page accessed
+[2025-02-06 23:53:05] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-06 23:53:05] [DEBUG] Rendering template: front/article.twig
+[2025-02-06 23:55:26] [INFO] Database connection established
+[2025-02-06 23:55:26] [INFO] Articles page accessed
+[2025-02-06 23:55:26] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-06 23:55:26] [DEBUG] Query executed: SELECT * FROM articles WHERE user_id = ? ORDER BY created_at DESC
+[2025-02-06 23:55:26] [DEBUG] Rendering template: front/article.twig
+[2025-02-06 23:55:37] [INFO] Database connection established
+[2025-02-06 23:55:37] [DEBUG] Rendering template: front/create.twig
+[2025-02-06 23:55:41] [INFO] Database connection established
+[2025-02-06 23:55:41] [INFO] Articles page accessed
+[2025-02-06 23:55:41] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-06 23:55:41] [DEBUG] Query executed: SELECT * FROM articles WHERE user_id = ? ORDER BY created_at DESC
+[2025-02-06 23:55:41] [DEBUG] Rendering template: front/article.twig
+[2025-02-06 23:55:58] [INFO] Database connection established
+[2025-02-06 23:55:58] [INFO] Articles page accessed
+[2025-02-06 23:55:58] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-06 23:55:58] [DEBUG] Query executed: SELECT * FROM articles WHERE user_id = ? ORDER BY created_at DESC
+[2025-02-06 23:55:58] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 00:02:13] [INFO] Database connection established
+[2025-02-07 00:02:13] [INFO] Articles page accessed
+[2025-02-07 00:02:13] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 00:02:13] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 00:02:18] [INFO] Database connection established
+[2025-02-07 00:02:18] [INFO] Articles page accessed
+[2025-02-07 00:02:18] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 00:02:18] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 00:02:20] [INFO] Database connection established
+[2025-02-07 00:02:20] [INFO] Articles page accessed
+[2025-02-07 00:02:20] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 00:02:20] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 00:02:45] [INFO] Database connection established
+[2025-02-07 00:02:45] [INFO] Articles page accessed
+[2025-02-07 00:02:45] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 00:02:45] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 00:04:56] [INFO] Database connection established
+[2025-02-07 00:04:56] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 00:04:56] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 00:05:30] [INFO] Database connection established
+[2025-02-07 00:05:30] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 00:05:30] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 00:06:02] [INFO] Database connection established
+[2025-02-07 00:06:02] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 00:06:02] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 00:06:06] [INFO] Database connection established
+[2025-02-07 00:06:06] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 00:06:06] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 00:08:48] [INFO] Database connection established
+[2025-02-07 00:08:48] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 00:08:48] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 00:08:52] [INFO] Database connection established
+[2025-02-07 00:08:52] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 00:08:52] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 00:10:28] [INFO] Database connection established
+[2025-02-07 00:10:28] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 00:10:28] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 00:12:37] [INFO] Database connection established
+[2025-02-07 00:12:37] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 00:12:37] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 00:12:39] [INFO] Database connection established
+[2025-02-07 00:12:39] [DEBUG] Query executed: SELECT articles.*, users.username FROM articles 
+         JOIN users ON articles.user_id = users.id 
+         WHERE user_id = ? 
+         ORDER BY created_at DESC
+[2025-02-07 00:12:39] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 00:12:42] [INFO] Database connection established
+[2025-02-07 00:12:42] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 00:12:42] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 00:14:02] [INFO] Database connection established
+[2025-02-07 00:14:02] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 00:14:02] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 00:14:03] [INFO] Database connection established
+[2025-02-07 00:14:03] [DEBUG] Query executed: SELECT articles.*, users.username FROM articles 
+         JOIN users ON articles.user_id = users.id 
+         WHERE user_id = ? 
+         ORDER BY created_at DESC
+[2025-02-07 00:14:03] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 00:14:05] [INFO] Database connection established
+[2025-02-07 00:14:05] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 00:14:05] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 00:14:06] [INFO] Database connection established
+[2025-02-07 00:14:06] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 00:14:09] [INFO] Database connection established
+[2025-02-07 00:14:09] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 00:14:09] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 00:14:11] [INFO] Database connection established
+[2025-02-07 00:14:11] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 00:14:13] [INFO] Database connection established
+[2025-02-07 00:14:13] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 00:14:13] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 00:14:15] [INFO] Database connection established
+[2025-02-07 00:14:15] [DEBUG] Rendering template: front/home.twig
+[2025-02-07 00:14:18] [INFO] Database connection established
+[2025-02-07 00:14:18] [DEBUG] Rendering template: front/login.twig
+[2025-02-07 00:15:30] [INFO] Database connection established
+[2025-02-07 00:15:30] [DEBUG] Rendering template: front/login.twig
+[2025-02-07 00:15:32] [INFO] Database connection established
+[2025-02-07 00:15:32] [DEBUG] Query executed: SELECT * FROM users WHERE email = ?
+[2025-02-07 00:15:32] [INFO] Database connection established
+[2025-02-07 00:15:32] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 00:15:32] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 00:15:42] [INFO] Database connection established
+[2025-02-07 00:15:45] [INFO] Database connection established
+[2025-02-07 00:15:45] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 00:15:45] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 00:16:37] [INFO] Database connection established
+[2025-02-07 00:16:37] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 00:16:37] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 00:16:39] [INFO] Database connection established
+[2025-02-07 00:16:39] [INFO] Database connection established
+[2025-02-07 00:16:39] [DEBUG] Rendering template: front/home.twig
+[2025-02-07 00:17:18] [INFO] Database connection established
+[2025-02-07 00:17:18] [DEBUG] Rendering template: front/home.twig
+[2025-02-07 00:19:03] [INFO] Database connection established
+[2025-02-07 00:19:03] [INFO] Database connection established
+[2025-02-07 00:19:03] [DEBUG] Rendering template: front/login.twig
+[2025-02-07 00:19:06] [INFO] Database connection established
+[2025-02-07 00:19:06] [DEBUG] Query executed: SELECT * FROM users WHERE email = ?
+[2025-02-07 00:19:07] [INFO] Database connection established
+[2025-02-07 00:19:07] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 00:19:07] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 00:19:15] [INFO] Database connection established
+[2025-02-07 11:16:48] [INFO] Database connection established
+[2025-02-07 11:18:06] [INFO] Database connection established
+[2025-02-07 11:20:41] [INFO] Database connection established
+[2025-02-07 11:20:41] [DEBUG] Query executed: SELECT * FROM articles WHERE id = ?
+[2025-02-07 11:20:41] [DEBUG] Rendering template: front/article/show.twig
+[2025-02-07 11:21:43] [INFO] Database connection established
+[2025-02-07 11:21:44] [DEBUG] Query executed: SELECT * FROM articles WHERE id = ?
+[2025-02-07 11:21:44] [DEBUG] Rendering template: front/article/show.twig
+[2025-02-07 11:23:43] [INFO] Database connection established
+[2025-02-07 11:23:43] [DEBUG] Query executed: SELECT * FROM articles WHERE id = ?
+[2025-02-07 11:23:43] [DEBUG] Rendering template: front/article/show.twig
+[2025-02-07 11:23:45] [INFO] Database connection established
+[2025-02-07 11:23:45] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 11:23:45] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 11:23:48] [INFO] Database connection established
+[2025-02-07 11:23:48] [DEBUG] Rendering template: front/login.twig
+[2025-02-07 11:23:49] [INFO] Database connection established
+[2025-02-07 11:23:49] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 11:23:49] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 11:23:53] [INFO] Database connection established
+[2025-02-07 11:23:53] [DEBUG] Query executed: SELECT * FROM articles WHERE id = ?
+[2025-02-07 11:23:53] [DEBUG] Rendering template: front/article/show.twig
+[2025-02-07 11:25:40] [INFO] Database connection established
+[2025-02-07 11:25:40] [DEBUG] Query executed: SELECT * FROM articles WHERE id = ?
+[2025-02-07 11:25:40] [DEBUG] Rendering template: front/article/show.twig
+[2025-02-07 11:27:58] [INFO] Database connection established
+[2025-02-07 11:27:58] [DEBUG] Query executed: SELECT * FROM articles WHERE id = ?
+[2025-02-07 11:27:58] [DEBUG] Rendering template: front/show.twig
+[2025-02-07 11:28:54] [INFO] Database connection established
+[2025-02-07 11:28:54] [DEBUG] Query executed: SELECT * FROM articles WHERE id = ?
+[2025-02-07 11:28:54] [DEBUG] Rendering template: front/show.twig
+[2025-02-07 11:30:13] [INFO] Database connection established
+[2025-02-07 11:30:13] [DEBUG] Query executed: SELECT * FROM articles WHERE id = ?
+[2025-02-07 11:30:13] [DEBUG] Rendering template: front/show.twig
+[2025-02-07 11:30:22] [INFO] Database connection established
+[2025-02-07 11:30:22] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 11:30:22] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 11:30:24] [INFO] Database connection established
+[2025-02-07 11:30:24] [DEBUG] Query executed: SELECT articles.*, users.username FROM articles 
+         JOIN users ON articles.user_id = users.id 
+         WHERE user_id = ? 
+         ORDER BY created_at DESC
+[2025-02-07 11:30:24] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 11:30:25] [INFO] Database connection established
+[2025-02-07 11:30:25] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 11:30:25] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 11:30:29] [INFO] Database connection established
+[2025-02-07 11:30:29] [DEBUG] Query executed: SELECT * FROM articles WHERE id = ?
+[2025-02-07 11:30:29] [DEBUG] Rendering template: front/show.twig
+[2025-02-07 11:30:31] [INFO] Database connection established
+[2025-02-07 11:30:31] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 11:30:31] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 11:30:32] [INFO] Database connection established
+[2025-02-07 11:30:32] [DEBUG] Query executed: SELECT * FROM articles WHERE id = ?
+[2025-02-07 11:30:32] [DEBUG] Rendering template: front/show.twig
+[2025-02-07 11:30:34] [INFO] Database connection established
+[2025-02-07 11:30:34] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 11:30:34] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 11:30:50] [INFO] Database connection established
+[2025-02-07 11:30:50] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 11:30:50] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 11:42:08] [INFO] Database connection established
+[2025-02-07 11:42:08] [INFO] User logged out
+[2025-02-07 11:42:08] [INFO] Database connection established
+[2025-02-07 11:42:08] [DEBUG] Rendering template: front/home.twig
+[2025-02-07 11:42:21] [INFO] Database connection established
+[2025-02-07 11:42:21] [INFO] Database connection established
+[2025-02-07 11:42:21] [DEBUG] Rendering template: front/login.twig
+[2025-02-07 11:42:24] [INFO] Database connection established
+[2025-02-07 11:42:24] [ERROR] Invalid CSRF token in login attempt
+[2025-02-07 11:42:24] [DEBUG] Rendering template: front/login.twig
+[2025-02-07 11:43:57] [INFO] Database connection established
+[2025-02-07 11:43:57] [ERROR] Invalid CSRF token in login attempt
+[2025-02-07 11:43:57] [DEBUG] Rendering template: front/login.twig
+[2025-02-07 11:45:23] [INFO] Database connection established
+[2025-02-07 11:45:23] [ERROR] Invalid CSRF token in login attempt
+[2025-02-07 11:45:23] [DEBUG] Rendering template: front/login.twig
+[2025-02-07 11:45:29] [INFO] Database connection established
+[2025-02-07 11:45:29] [DEBUG] Rendering template: front/login.twig
+[2025-02-07 11:45:31] [INFO] Database connection established
+[2025-02-07 11:45:31] [DEBUG] Query executed: SELECT * FROM users WHERE email = ?
+[2025-02-07 11:45:31] [INFO] Database connection established
+[2025-02-07 11:45:31] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 11:45:31] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 11:45:34] [INFO] Database connection established
+[2025-02-07 11:45:34] [INFO] User logged out
+[2025-02-07 11:45:34] [INFO] Database connection established
+[2025-02-07 11:45:34] [DEBUG] Rendering template: front/home.twig
+[2025-02-07 11:45:36] [INFO] Database connection established
+[2025-02-07 11:45:36] [INFO] Database connection established
+[2025-02-07 11:45:36] [DEBUG] Rendering template: front/login.twig
+[2025-02-07 11:45:42] [INFO] Database connection established
+[2025-02-07 11:45:42] [DEBUG] Query executed: SELECT * FROM users WHERE email = ?
+[2025-02-07 11:45:42] [INFO] Database connection established
+[2025-02-07 11:45:42] [INFO] Admin accessed dashboard
+[2025-02-07 11:45:42] [DEBUG] Query executed: SELECT * FROM users
+[2025-02-07 11:45:42] [DEBUG] Query executed: SELECT * FROM articles
+[2025-02-07 11:45:42] [DEBUG] Rendering template: back/dashboard.twig
+[2025-02-07 11:45:44] [INFO] Database connection established
+[2025-02-07 11:45:44] [INFO] Admin accessed users list
+[2025-02-07 11:45:44] [DEBUG] Query executed: SELECT * FROM users
+[2025-02-07 11:45:44] [DEBUG] Rendering template: back/user.twig
+[2025-02-07 11:45:46] [INFO] Database connection established
+[2025-02-07 11:45:46] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 11:45:46] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 11:45:51] [INFO] Database connection established
+[2025-02-07 11:45:51] [DEBUG] Query executed: SELECT articles.*, users.username FROM articles 
+         JOIN users ON articles.user_id = users.id 
+         WHERE user_id = ? 
+         ORDER BY created_at DESC
+[2025-02-07 11:45:51] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 11:45:53] [INFO] Database connection established
+[2025-02-07 11:45:53] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 11:45:53] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 11:46:03] [INFO] Database connection established
+[2025-02-07 11:46:03] [DEBUG] Query executed: SELECT articles.*, users.username FROM articles 
+         JOIN users ON articles.user_id = users.id 
+         WHERE user_id = ? 
+         ORDER BY created_at DESC
+[2025-02-07 11:46:03] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 11:46:05] [INFO] Database connection established
+[2025-02-07 11:46:05] [INFO] User logged out
+[2025-02-07 11:46:05] [INFO] Database connection established
+[2025-02-07 11:46:05] [DEBUG] Rendering template: front/home.twig
+[2025-02-07 11:46:08] [INFO] Database connection established
+[2025-02-07 11:46:08] [INFO] Database connection established
+[2025-02-07 11:46:08] [DEBUG] Rendering template: front/login.twig
+[2025-02-07 11:46:13] [INFO] Database connection established
+[2025-02-07 11:46:13] [DEBUG] Query executed: SELECT * FROM users WHERE email = ?
+[2025-02-07 11:46:13] [INFO] Database connection established
+[2025-02-07 11:46:13] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 11:46:13] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 11:55:33] [INFO] Database connection established
+[2025-02-07 11:55:33] [DEBUG] Query executed: SELECT articles.*, users.username FROM articles 
+         JOIN users ON articles.user_id = users.id 
+         WHERE user_id = ? 
+         ORDER BY created_at DESC
+[2025-02-07 11:55:33] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 11:55:35] [INFO] Database connection established
+[2025-02-07 11:55:35] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 11:55:35] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 11:55:36] [INFO] Database connection established
+[2025-02-07 11:55:36] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 11:55:42] [INFO] Database connection established
+[2025-02-07 11:55:42] [ERROR] Invalid CSRF token in article creation
+[2025-02-07 11:55:42] [INFO] Database connection established
+[2025-02-07 11:55:42] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 11:55:42] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 11:56:20] [INFO] Database connection established
+[2025-02-07 11:56:20] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 11:56:20] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 11:56:22] [INFO] Database connection established
+[2025-02-07 11:56:22] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 11:56:26] [INFO] Database connection established
+[2025-02-07 11:56:26] [DEBUG] Query executed: INSERT INTO articles (title, content, user_id) VALUES (?, ?, ?)
+[2025-02-07 11:56:26] [INFO] New article created
+[2025-02-07 11:56:26] [INFO] Database connection established
+[2025-02-07 11:56:26] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 11:56:26] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 11:57:21] [INFO] Database connection established
+[2025-02-07 11:57:21] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 11:57:21] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 11:59:37] [INFO] Database connection established
+[2025-02-07 11:59:37] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 11:59:37] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 12:50:24] [INFO] Database connection established
+[2025-02-07 12:50:24] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 12:50:24] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 12:50:26] [INFO] Database connection established
+[2025-02-07 12:50:26] [DEBUG] Query executed: SELECT articles.*, users.username FROM articles 
+         JOIN users ON articles.user_id = users.id 
+         WHERE user_id = ? 
+         ORDER BY created_at DESC
+[2025-02-07 12:50:26] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 12:50:27] [INFO] Database connection established
+[2025-02-07 12:50:27] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 12:50:27] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 12:50:29] [INFO] Database connection established
+[2025-02-07 12:50:29] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 12:50:38] [INFO] Database connection established
+[2025-02-07 12:50:38] [DEBUG] Query executed: INSERT INTO articles (title, content, user_id) VALUES (?, ?, ?)
+[2025-02-07 12:50:38] [INFO] New article created
+[2025-02-07 12:50:38] [INFO] Database connection established
+[2025-02-07 12:50:38] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 12:50:38] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 12:55:09] [INFO] Database connection established
+[2025-02-07 12:55:09] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 12:55:09] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 12:55:11] [INFO] Database connection established
+[2025-02-07 12:55:11] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 12:55:17] [INFO] Database connection established
+[2025-02-07 12:55:17] [DEBUG] Query executed: INSERT INTO articles (title, content, user_id) VALUES (?, ?, ?)
+[2025-02-07 12:55:17] [INFO] New article created
+[2025-02-07 12:55:17] [INFO] Database connection established
+[2025-02-07 12:55:17] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 12:55:17] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 12:57:52] [INFO] Database connection established
+[2025-02-07 12:57:52] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 12:57:52] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 12:57:53] [INFO] Database connection established
+[2025-02-07 12:57:53] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 12:57:58] [INFO] Database connection established
+[2025-02-07 12:57:58] [DEBUG] Rendering template: front/article/create.twig
+[2025-02-07 12:58:33] [INFO] Database connection established
+[2025-02-07 12:58:33] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 12:58:35] [INFO] Database connection established
+[2025-02-07 12:58:35] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 12:58:41] [INFO] Database connection established
+[2025-02-07 12:58:41] [DEBUG] Rendering template: front/article/create.twig
+[2025-02-07 12:59:20] [INFO] Database connection established
+[2025-02-07 12:59:20] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 12:59:22] [INFO] Database connection established
+[2025-02-07 12:59:22] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 12:59:30] [INFO] Database connection established
+[2025-02-07 12:59:30] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 12:59:30] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 12:59:32] [INFO] Database connection established
+[2025-02-07 12:59:32] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 12:59:37] [INFO] Database connection established
+[2025-02-07 12:59:37] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 13:01:25] [INFO] Database connection established
+[2025-02-07 13:01:25] [ERROR] Invalid CSRF token in article creation
+[2025-02-07 13:01:25] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 13:01:33] [INFO] Database connection established
+[2025-02-07 13:01:33] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 13:01:36] [INFO] Database connection established
+[2025-02-07 13:01:36] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 13:01:39] [INFO] Database connection established
+[2025-02-07 13:01:39] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 13:01:40] [INFO] Database connection established
+[2025-02-07 13:01:40] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 13:01:40] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 13:01:42] [INFO] Database connection established
+[2025-02-07 13:01:42] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 13:01:42] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 13:01:44] [INFO] Database connection established
+[2025-02-07 13:01:44] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 13:01:49] [INFO] Database connection established
+[2025-02-07 13:01:49] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 13:05:03] [INFO] Database connection established
+[2025-02-07 13:05:03] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 13:05:04] [INFO] Database connection established
+[2025-02-07 13:05:04] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 13:05:04] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 13:05:06] [INFO] Database connection established
+[2025-02-07 13:05:06] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 13:05:06] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 13:05:07] [INFO] Database connection established
+[2025-02-07 13:05:07] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 13:05:13] [INFO] Database connection established
+[2025-02-07 13:05:13] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 13:06:31] [INFO] Database connection established
+[2025-02-07 13:06:31] [ERROR] Invalid CSRF token in article creation
+[2025-02-07 13:06:31] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 13:06:37] [INFO] Database connection established
+[2025-02-07 13:06:37] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 13:06:41] [INFO] Database connection established
+[2025-02-07 13:06:41] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 13:06:43] [INFO] Database connection established
+[2025-02-07 13:06:43] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 13:06:43] [INFO] Database connection established
+[2025-02-07 13:06:43] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 13:06:43] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 13:06:44] [INFO] Database connection established
+[2025-02-07 13:06:44] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 13:06:44] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 13:06:46] [INFO] Database connection established
+[2025-02-07 13:06:46] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 13:06:52] [INFO] Database connection established
+[2025-02-07 13:06:52] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 13:07:30] [INFO] Database connection established
+[2025-02-07 13:07:30] [ERROR] Invalid CSRF token in article creation
+[2025-02-07 13:07:30] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 13:07:35] [INFO] Database connection established
+[2025-02-07 13:07:35] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 13:08:09] [INFO] Database connection established
+[2025-02-07 13:08:09] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 13:08:12] [INFO] Database connection established
+[2025-02-07 13:08:12] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 13:08:12] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:07:50] [INFO] Database connection established
+[2025-02-07 14:07:50] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:07:50] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:07:55] [INFO] Database connection established
+[2025-02-07 14:07:55] [DEBUG] Query executed: SELECT * FROM users WHERE id = ?
+[2025-02-07 14:07:55] [DEBUG] Rendering template: front/article/create.twig
+[2025-02-07 14:07:57] [INFO] Database connection established
+[2025-02-07 14:07:57] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:07:57] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:08:00] [INFO] Database connection established
+[2025-02-07 14:08:00] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:08:00] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:08:01] [INFO] Database connection established
+[2025-02-07 14:08:01] [DEBUG] Query executed: SELECT * FROM users WHERE id = ?
+[2025-02-07 14:08:01] [DEBUG] Rendering template: front/article/create.twig
+[2025-02-07 14:08:03] [INFO] Database connection established
+[2025-02-07 14:08:03] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:08:03] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:09:26] [INFO] Database connection established
+[2025-02-07 14:09:26] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:09:26] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:09:27] [INFO] Database connection established
+[2025-02-07 14:09:27] [DEBUG] Query executed: SELECT * FROM users WHERE id = ?
+[2025-02-07 14:09:27] [DEBUG] Rendering template: front/article/create.twig
+[2025-02-07 14:09:51] [INFO] Database connection established
+[2025-02-07 14:09:51] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:09:51] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:10:22] [INFO] Database connection established
+[2025-02-07 14:10:22] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:10:22] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:10:28] [INFO] Database connection established
+[2025-02-07 14:10:28] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:10:28] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:11:18] [INFO] Database connection established
+[2025-02-07 14:11:18] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:11:18] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:11:20] [INFO] Database connection established
+[2025-02-07 14:11:20] [DEBUG] Query executed: SELECT * FROM users WHERE id = ?
+[2025-02-07 14:11:20] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:11:25] [INFO] Database connection established
+[2025-02-07 14:11:25] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:13:33] [INFO] Database connection established
+[2025-02-07 14:13:33] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:19:25] [INFO] Database connection established
+[2025-02-07 14:19:25] [ERROR] Invalid CSRF token in article creation
+[2025-02-07 14:19:25] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:19:37] [INFO] Database connection established
+[2025-02-07 14:19:37] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:22:23] [INFO] Database connection established
+[2025-02-07 14:22:23] [ERROR] Invalid CSRF token in article creation
+[2025-02-07 14:22:23] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:22:29] [INFO] Database connection established
+[2025-02-07 14:22:29] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:25:27] [INFO] Database connection established
+[2025-02-07 14:25:27] [DEBUG] Query executed: SELECT * FROM users WHERE id = ?
+[2025-02-07 14:25:27] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:25:29] [INFO] Database connection established
+[2025-02-07 14:25:29] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:25:29] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:25:31] [INFO] Database connection established
+[2025-02-07 14:25:31] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:25:31] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:26:16] [INFO] Database connection established
+[2025-02-07 14:26:16] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:26:16] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:27:04] [INFO] Database connection established
+[2025-02-07 14:27:04] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:27:04] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:27:17] [INFO] Database connection established
+[2025-02-07 14:27:17] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:27:17] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:30:42] [INFO] Database connection established
+[2025-02-07 14:30:42] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:30:42] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:30:44] [INFO] Database connection established
+[2025-02-07 14:30:45] [DEBUG] Query executed: SELECT * FROM users WHERE id = ?
+[2025-02-07 14:30:45] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:30:48] [INFO] Database connection established
+[2025-02-07 14:30:48] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:31:34] [INFO] Database connection established
+[2025-02-07 14:31:34] [DEBUG] Query executed: SELECT * FROM users WHERE id = ?
+[2025-02-07 14:31:34] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:31:38] [INFO] Database connection established
+[2025-02-07 14:31:38] [DEBUG] Query executed: SELECT * FROM users WHERE id = ?
+[2025-02-07 14:31:38] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:31:39] [INFO] Database connection established
+[2025-02-07 14:31:39] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:31:39] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:31:42] [INFO] Database connection established
+[2025-02-07 14:31:42] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:31:42] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:31:45] [INFO] Database connection established
+[2025-02-07 14:31:45] [DEBUG] Query executed: SELECT * FROM users WHERE id = ?
+[2025-02-07 14:31:45] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:31:51] [INFO] Database connection established
+[2025-02-07 14:31:51] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:31:56] [INFO] Database connection established
+[2025-02-07 14:31:56] [DEBUG] Query executed: SELECT * FROM users WHERE id = ?
+[2025-02-07 14:31:56] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:31:58] [INFO] Database connection established
+[2025-02-07 14:31:58] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:31:58] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:32:52] [INFO] Database connection established
+[2025-02-07 14:32:52] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:32:52] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:32:54] [INFO] Database connection established
+[2025-02-07 14:32:54] [DEBUG] Query executed: SELECT * FROM users WHERE id = ?
+[2025-02-07 14:32:54] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:32:59] [INFO] Database connection established
+[2025-02-07 14:32:59] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:33:04] [INFO] Database connection established
+[2025-02-07 14:33:04] [DEBUG] Query executed: SELECT * FROM users WHERE id = ?
+[2025-02-07 14:33:04] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:33:05] [INFO] Database connection established
+[2025-02-07 14:33:05] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:33:05] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:34:24] [INFO] Database connection established
+[2025-02-07 14:34:24] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:34:24] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:34:25] [INFO] Database connection established
+[2025-02-07 14:34:25] [DEBUG] Query executed: SELECT * FROM users WHERE id = ?
+[2025-02-07 14:34:25] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:34:30] [INFO] Database connection established
+[2025-02-07 14:34:30] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:36:01] [INFO] Database connection established
+[2025-02-07 14:36:01] [ERROR] Invalid CSRF token in article creation
+[2025-02-07 14:36:01] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:36:06] [INFO] Database connection established
+[2025-02-07 14:36:06] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:36:11] [INFO] Database connection established
+[2025-02-07 14:36:11] [DEBUG] Query executed: SELECT * FROM users WHERE id = ?
+[2025-02-07 14:36:11] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:36:12] [INFO] Database connection established
+[2025-02-07 14:36:13] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:36:13] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:36:14] [INFO] Database connection established
+[2025-02-07 14:36:14] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:36:14] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:36:16] [INFO] Database connection established
+[2025-02-07 14:36:16] [DEBUG] Query executed: SELECT * FROM users WHERE id = ?
+[2025-02-07 14:36:16] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:36:20] [INFO] Database connection established
+[2025-02-07 14:36:20] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:38:13] [INFO] Database connection established
+[2025-02-07 14:38:13] [DEBUG] Query executed: SELECT * FROM users WHERE id = ?
+[2025-02-07 14:38:13] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:38:14] [INFO] Database connection established
+[2025-02-07 14:38:14] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:38:14] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:38:15] [INFO] Database connection established
+[2025-02-07 14:38:15] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:38:15] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:38:17] [INFO] Database connection established
+[2025-02-07 14:38:17] [DEBUG] Query executed: SELECT * FROM users WHERE id = ?
+[2025-02-07 14:38:17] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:38:21] [INFO] Database connection established
+[2025-02-07 14:38:21] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:38:21] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:38:39] [INFO] Database connection established
+[2025-02-07 14:38:39] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:38:39] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:38:40] [INFO] Database connection established
+[2025-02-07 14:38:40] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:38:40] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:38:41] [INFO] Database connection established
+[2025-02-07 14:38:41] [DEBUG] Query executed: SELECT * FROM users WHERE id = ?
+[2025-02-07 14:38:41] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:38:44] [INFO] Database connection established
+[2025-02-07 14:38:44] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:38:44] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:39:25] [INFO] Database connection established
+[2025-02-07 14:39:25] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:39:25] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:39:34] [INFO] Database connection established
+[2025-02-07 14:39:34] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:39:34] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:39:36] [INFO] Database connection established
+[2025-02-07 14:39:36] [DEBUG] Query executed: SELECT * FROM users WHERE id = ?
+[2025-02-07 14:39:36] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:39:42] [INFO] Database connection established
+[2025-02-07 14:39:42] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:39:49] [INFO] Database connection established
+[2025-02-07 14:39:49] [DEBUG] Query executed: SELECT * FROM users WHERE id = ?
+[2025-02-07 14:39:49] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:39:50] [INFO] Database connection established
+[2025-02-07 14:39:50] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:39:50] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:40:21] [INFO] Database connection established
+[2025-02-07 14:40:21] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:40:21] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:40:25] [INFO] Database connection established
+[2025-02-07 14:40:25] [DEBUG] Query executed: SELECT * FROM users WHERE id = ?
+[2025-02-07 14:40:25] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:40:30] [INFO] Database connection established
+[2025-02-07 14:40:30] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:40:36] [INFO] Database connection established
+[2025-02-07 14:40:36] [DEBUG] Query executed: SELECT * FROM users WHERE id = ?
+[2025-02-07 14:40:36] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:40:38] [INFO] Database connection established
+[2025-02-07 14:40:38] [DEBUG] Query executed: SELECT * FROM users WHERE id = ?
+[2025-02-07 14:40:38] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:40:40] [INFO] Database connection established
+[2025-02-07 14:40:40] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:40:40] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:40:43] [INFO] Database connection established
+[2025-02-07 14:40:43] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:40:43] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:43:38] [INFO] Database connection established
+[2025-02-07 14:43:38] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:43:38] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:43:39] [INFO] Database connection established
+[2025-02-07 14:43:39] [DEBUG] Query executed: SELECT * FROM users WHERE id = ?
+[2025-02-07 14:43:39] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:43:44] [INFO] Database connection established
+[2025-02-07 14:43:44] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:44:02] [INFO] Database connection established
+[2025-02-07 14:44:02] [ERROR] Invalid CSRF token in article creation
+[2025-02-07 14:44:02] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:44:05] [INFO] Database connection established
+[2025-02-07 14:44:05] [DEBUG] Query executed: SELECT * FROM users WHERE id = ?
+[2025-02-07 14:44:05] [DEBUG] Rendering template: front/create.twig
+[2025-02-07 14:44:06] [INFO] Database connection established
+[2025-02-07 14:44:06] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:44:06] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:44:07] [INFO] Database connection established
+[2025-02-07 14:44:07] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:44:07] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:45:19] [INFO] Database connection established
+[2025-02-07 14:45:19] [DEBUG] Query executed: SELECT articles.*, users.username FROM articles 
+         JOIN users ON articles.user_id = users.id 
+         WHERE user_id = ? 
+         ORDER BY created_at DESC
+[2025-02-07 14:45:19] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:45:22] [INFO] Database connection established
+[2025-02-07 14:45:22] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:45:22] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:45:25] [INFO] Database connection established
+[2025-02-07 14:45:25] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:45:25] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:45:27] [INFO] Database connection established
+[2025-02-07 14:45:27] [DEBUG] Rendering template: front/home.twig
+[2025-02-07 14:45:43] [INFO] Database connection established
+[2025-02-07 14:45:43] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:45:43] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:45:44] [INFO] Database connection established
+[2025-02-07 14:45:44] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:45:44] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:45:48] [INFO] Database connection established
+[2025-02-07 14:45:48] [INFO] User logged out
+[2025-02-07 14:45:48] [INFO] Database connection established
+[2025-02-07 14:45:48] [DEBUG] Rendering template: front/home.twig
+[2025-02-07 14:46:09] [INFO] Database connection established
+[2025-02-07 14:46:09] [DEBUG] Rendering template: front/home.twig
+[2025-02-07 14:46:14] [INFO] Database connection established
+[2025-02-07 14:46:14] [INFO] Database connection established
+[2025-02-07 14:46:14] [DEBUG] Rendering template: front/login.twig
+[2025-02-07 14:46:18] [INFO] Database connection established
+[2025-02-07 14:46:18] [DEBUG] Query executed: SELECT * FROM users WHERE email = ?
+[2025-02-07 14:46:18] [INFO] Database connection established
+[2025-02-07 14:46:18] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 14:46:18] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 14:46:20] [INFO] Database connection established
+[2025-02-07 14:46:20] [INFO] User logged out
+[2025-02-07 14:46:20] [INFO] Database connection established
+[2025-02-07 14:46:20] [DEBUG] Rendering template: front/home.twig
+[2025-02-07 14:46:22] [INFO] Database connection established
+[2025-02-07 14:46:22] [INFO] Database connection established
+[2025-02-07 14:46:22] [DEBUG] Rendering template: front/login.twig
+[2025-02-07 14:46:26] [INFO] Database connection established
+[2025-02-07 14:46:26] [DEBUG] Query executed: SELECT * FROM users WHERE email = ?
+[2025-02-07 14:46:26] [INFO] Database connection established
+[2025-02-07 14:46:26] [INFO] Admin accessed dashboard
+[2025-02-07 14:46:26] [DEBUG] Query executed: SELECT * FROM users
+[2025-02-07 14:46:26] [DEBUG] Query executed: SELECT * FROM articles
+[2025-02-07 14:46:26] [DEBUG] Query executed: SELECT * FROM users WHERE id = ?
+[2025-02-07 14:46:26] [DEBUG] Rendering template: back/dashboard.twig
+[2025-02-07 14:46:32] [INFO] Database connection established
+[2025-02-07 14:46:32] [INFO] Admin accessed users list
+[2025-02-07 14:46:32] [INFO] Database connection established
+[2025-02-07 14:46:32] [DEBUG] Rendering template: front/home.twig
+[2025-02-07 14:46:40] [INFO] Database connection established
+[2025-02-07 14:46:40] [INFO] Admin accessed dashboard
+[2025-02-07 14:46:40] [DEBUG] Query executed: SELECT * FROM users
+[2025-02-07 14:46:40] [DEBUG] Query executed: SELECT * FROM articles
+[2025-02-07 14:46:40] [DEBUG] Query executed: SELECT * FROM users WHERE id = ?
+[2025-02-07 14:46:40] [DEBUG] Rendering template: back/dashboard.twig
+[2025-02-07 15:38:48] [INFO] Database connection established
+[2025-02-07 15:38:48] [INFO] Database connection established
+[2025-02-07 15:38:48] [DEBUG] Rendering template: front/login.twig
+[2025-02-07 15:38:53] [INFO] Database connection established
+[2025-02-07 15:38:53] [DEBUG] Query executed: SELECT * FROM users WHERE email = ?
+[2025-02-07 15:38:54] [INFO] Database connection established
+[2025-02-07 15:38:54] [INFO] Database connection established
+[2025-02-07 15:38:54] [DEBUG] Rendering template: front/login.twig
+[2025-02-07 15:39:43] [INFO] Database connection established
+[2025-02-07 15:39:43] [DEBUG] Rendering template: front/login.twig
+[2025-02-07 15:39:45] [INFO] Database connection established
+[2025-02-07 15:39:45] [DEBUG] Query executed: SELECT * FROM users WHERE email = ?
+[2025-02-07 15:39:45] [INFO] Database connection established
+[2025-02-07 15:39:45] [INFO] Admin accessed dashboard
+[2025-02-07 15:39:45] [DEBUG] Query executed: SELECT * FROM users
+[2025-02-07 15:39:45] [DEBUG] Query executed: SELECT * FROM articles
+[2025-02-07 15:39:45] [DEBUG] Query executed: SELECT * FROM users WHERE id = ?
+[2025-02-07 15:39:45] [DEBUG] Rendering template: back/dashboard.twig
+[2025-02-07 15:41:01] [INFO] Database connection established
+[2025-02-07 15:41:01] [INFO] Admin accessed dashboard
+[2025-02-07 15:41:01] [DEBUG] Query executed: SELECT * FROM users
+[2025-02-07 15:41:01] [DEBUG] Query executed: SELECT * FROM articles
+[2025-02-07 15:41:01] [DEBUG] Query executed: SELECT * FROM users WHERE id = ?
+[2025-02-07 15:41:01] [DEBUG] Rendering template: back/dashboard.twig
+[2025-02-07 15:41:03] [INFO] Database connection established
+[2025-02-07 15:41:03] [DEBUG] Query executed: SELECT * FROM users
+[2025-02-07 15:41:03] [DEBUG] Rendering template: back/user.twig
+[2025-02-07 15:44:36] [INFO] Database connection established
+[2025-02-07 15:44:36] [DEBUG] Query executed: SELECT * FROM users
+[2025-02-07 15:44:36] [DEBUG] Rendering template: back/user.twig
+[2025-02-07 15:44:38] [INFO] Database connection established
+[2025-02-07 15:44:38] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 15:44:38] [DEBUG] Rendering template: back/article.twig
+[2025-02-07 15:45:08] [INFO] Database connection established
+[2025-02-07 15:45:08] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 15:45:08] [DEBUG] Rendering template: back/article.twig
+[2025-02-07 15:50:20] [INFO] Database connection established
+[2025-02-07 15:50:20] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 15:50:20] [DEBUG] Rendering template: back/article.twig
+[2025-02-07 15:50:47] [INFO] Database connection established
+[2025-02-07 15:50:47] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 15:50:47] [DEBUG] Rendering template: back/article.twig
+[2025-02-07 15:51:06] [INFO] Database connection established
+[2025-02-07 15:51:06] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 15:51:06] [DEBUG] Rendering template: back/article.twig
+[2025-02-07 15:52:49] [INFO] Database connection established
+[2025-02-07 15:52:49] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 15:52:49] [DEBUG] Rendering template: back/article.twig
+[2025-02-07 16:02:25] [INFO] Database connection established
+[2025-02-07 16:02:25] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:02:25] [DEBUG] Rendering template: back/article.twig
+[2025-02-07 16:02:35] [INFO] Database connection established
+[2025-02-07 16:02:35] [DEBUG] Query executed: SELECT * FROM articles WHERE id = ?
+[2025-02-07 16:02:35] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:02:35] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 16:02:44] [INFO] Database connection established
+[2025-02-07 16:02:44] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:02:44] [DEBUG] Rendering template: back/article.twig
+[2025-02-07 16:03:06] [INFO] Database connection established
+[2025-02-07 16:03:06] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:03:06] [DEBUG] Rendering template: back/article.twig
+[2025-02-07 16:04:26] [INFO] Database connection established
+[2025-02-07 16:04:26] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:04:26] [DEBUG] Rendering template: back/article.twig
+[2025-02-07 16:05:28] [INFO] Database connection established
+[2025-02-07 16:05:28] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:05:28] [DEBUG] Rendering template: back/article.twig
+[2025-02-07 16:05:36] [INFO] Database connection established
+[2025-02-07 16:05:36] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:05:36] [DEBUG] Rendering template: back/article.twig
+[2025-02-07 16:05:57] [INFO] Database connection established
+[2025-02-07 16:05:57] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:05:57] [DEBUG] Rendering template: back/article.twig
+[2025-02-07 16:06:17] [INFO] Database connection established
+[2025-02-07 16:06:17] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:06:17] [DEBUG] Rendering template: back/article.twig
+[2025-02-07 16:08:21] [INFO] Database connection established
+[2025-02-07 16:08:21] [INFO] User logged out
+[2025-02-07 16:08:21] [INFO] Database connection established
+[2025-02-07 16:08:21] [DEBUG] Rendering template: front/home.twig
+[2025-02-07 16:08:23] [INFO] Database connection established
+[2025-02-07 16:08:23] [DEBUG] Rendering template: front/login.twig
+[2025-02-07 16:08:31] [INFO] Database connection established
+[2025-02-07 16:08:31] [DEBUG] Query executed: SELECT * FROM users WHERE email = ?
+[2025-02-07 16:08:31] [INFO] Database connection established
+[2025-02-07 16:08:31] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:08:31] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 16:09:09] [INFO] Database connection established
+[2025-02-07 16:09:09] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:09:09] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 16:09:30] [INFO] Database connection established
+[2025-02-07 16:09:30] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:09:30] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 16:09:34] [INFO] Database connection established
+[2025-02-07 16:09:34] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:09:34] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 16:09:35] [INFO] Database connection established
+[2025-02-07 16:09:36] [DEBUG] Rendering template: front/login.twig
+[2025-02-07 16:09:38] [INFO] Database connection established
+[2025-02-07 16:09:38] [DEBUG] Query executed: SELECT * FROM users WHERE email = ?
+[2025-02-07 16:09:38] [INFO] Database connection established
+[2025-02-07 16:09:38] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:09:38] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 16:09:47] [INFO] Database connection established
+[2025-02-07 16:09:47] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:09:47] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 16:11:37] [INFO] Database connection established
+[2025-02-07 16:11:37] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:11:37] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 16:12:02] [INFO] Database connection established
+[2025-02-07 16:12:02] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:12:02] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 16:12:26] [INFO] Database connection established
+[2025-02-07 16:12:26] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:12:26] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 16:12:44] [INFO] Database connection established
+[2025-02-07 16:12:44] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:12:44] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 16:13:05] [INFO] Database connection established
+[2025-02-07 16:13:05] [DEBUG] Query executed: SELECT * FROM articles WHERE id = ?
+[2025-02-07 16:13:05] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:13:05] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 16:13:11] [INFO] Database connection established
+[2025-02-07 16:13:11] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:13:11] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 16:13:14] [INFO] Database connection established
+[2025-02-07 16:13:14] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:13:14] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 16:13:32] [INFO] Database connection established
+[2025-02-07 16:13:32] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:13:32] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 16:14:55] [INFO] Database connection established
+[2025-02-07 16:14:55] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:14:55] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 16:15:23] [INFO] Database connection established
+[2025-02-07 16:15:23] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:15:23] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 16:16:07] [INFO] Database connection established
+[2025-02-07 16:16:08] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:16:08] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 16:16:18] [INFO] Database connection established
+[2025-02-07 16:16:18] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:16:18] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 16:16:25] [INFO] Database connection established
+[2025-02-07 16:16:25] [DEBUG] Query executed: SELECT * FROM articles WHERE id = ?
+[2025-02-07 16:16:25] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:16:25] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 16:17:02] [INFO] Database connection established
+[2025-02-07 16:17:02] [DEBUG] Query executed: SELECT * FROM articles WHERE id = ?
+[2025-02-07 16:17:02] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:17:02] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 16:17:06] [INFO] Database connection established
+[2025-02-07 16:17:06] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:17:06] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 16:17:06] [INFO] Database connection established
+[2025-02-07 16:17:06] [DEBUG] Rendering template: front/login.twig
+[2025-02-07 16:17:09] [INFO] Database connection established
+[2025-02-07 16:17:09] [DEBUG] Query executed: SELECT * FROM users WHERE email = ?
+[2025-02-07 16:17:09] [INFO] Database connection established
+[2025-02-07 16:17:09] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:17:09] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 16:17:11] [INFO] Database connection established
+[2025-02-07 16:17:11] [DEBUG] Query executed: SELECT * FROM articles WHERE id = ?
+[2025-02-07 16:17:11] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:17:11] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 16:17:32] [INFO] Database connection established
+[2025-02-07 16:17:32] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:17:32] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 16:17:34] [INFO] Database connection established
+[2025-02-07 16:17:35] [DEBUG] Query executed: SELECT * FROM articles WHERE id = ?
+[2025-02-07 16:17:35] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:17:35] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 16:20:40] [INFO] Database connection established
+[2025-02-07 16:20:40] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:20:40] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 16:20:41] [INFO] Database connection established
+[2025-02-07 16:20:41] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:20:41] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 16:20:43] [INFO] Database connection established
+[2025-02-07 16:20:43] [DEBUG] Query executed: SELECT * FROM articles WHERE id = ?
+[2025-02-07 16:20:43] [DEBUG] Query executed: DELETE FROM articles WHERE id = ?
+[2025-02-07 16:20:43] [INFO] Article deleted: 6
+[2025-02-07 16:20:43] [INFO] Database connection established
+[2025-02-07 16:20:43] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:20:43] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 16:20:52] [INFO] Database connection established
+[2025-02-07 16:20:52] [DEBUG] Query executed: SELECT * FROM articles WHERE id = ?
+[2025-02-07 16:20:52] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:20:52] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 16:22:22] [INFO] Database connection established
+[2025-02-07 16:22:22] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:22:22] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 16:22:23] [INFO] Database connection established
+[2025-02-07 16:22:23] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:22:23] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 16:22:24] [INFO] Database connection established
+[2025-02-07 16:22:24] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:22:24] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 16:22:29] [INFO] Database connection established
+[2025-02-07 16:22:29] [DEBUG] Query executed: SELECT articles.*, users.username FROM articles 
+         JOIN users ON articles.user_id = users.id 
+         WHERE user_id = ? 
+         ORDER BY created_at DESC
+[2025-02-07 16:22:29] [DEBUG] Rendering template: front/article.twig
+[2025-02-07 16:24:54] [INFO] Database connection established
+[2025-02-07 16:24:54] [INFO] User logged out
+[2025-02-07 16:24:55] [INFO] Database connection established
+[2025-02-07 16:24:55] [DEBUG] Rendering template: front/home.twig
+[2025-02-07 16:24:56] [INFO] Database connection established
+[2025-02-07 16:24:56] [DEBUG] Rendering template: front/login.twig
+[2025-02-07 16:25:01] [INFO] Database connection established
+[2025-02-07 16:25:01] [DEBUG] Query executed: SELECT * FROM users WHERE email = ?
+[2025-02-07 16:25:01] [INFO] Database connection established
+[2025-02-07 16:25:01] [INFO] Admin accessed dashboard
+[2025-02-07 16:25:01] [DEBUG] Query executed: SELECT * FROM users
+[2025-02-07 16:25:01] [DEBUG] Query executed: SELECT * FROM articles
+[2025-02-07 16:25:01] [DEBUG] Query executed: SELECT * FROM users WHERE id = ?
+[2025-02-07 16:25:01] [DEBUG] Rendering template: back/dashboard.twig
+[2025-02-07 16:25:03] [INFO] Database connection established
+[2025-02-07 16:25:03] [DEBUG] Query executed: SELECT * FROM users
+[2025-02-07 16:25:03] [DEBUG] Rendering template: back/user.twig
+[2025-02-07 16:25:05] [INFO] Database connection established
+[2025-02-07 16:25:05] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:25:05] [DEBUG] Rendering template: back/article.twig
+[2025-02-07 16:25:07] [INFO] Database connection established
+[2025-02-07 16:25:07] [DEBUG] Query executed: DELETE FROM articles WHERE id = ?
+[2025-02-07 16:25:07] [INFO] Database connection established
+[2025-02-07 16:25:07] [DEBUG] Query executed: 
+            SELECT articles.*, users.username 
+            FROM articles
+            JOIN users ON articles.user_id = users.id 
+            ORDER BY created_at DESC
+        
+[2025-02-07 16:25:07] [DEBUG] Rendering template: back/article.twig
