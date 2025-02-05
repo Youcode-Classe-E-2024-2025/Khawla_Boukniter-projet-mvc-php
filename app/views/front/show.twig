@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ article.title }} | DevBlog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <i class="fas fa-code"></i>
+            <span>DevBlog</span>
+        </div>
+        <div class="navbar-menu">
+            <a href="/" class="nav-link"><i class="fas fa-home"></i> Home</a>
+            <a href="/articles" class="nav-link"><i class="fas fa-newspaper"></i> Articles</a>
+            <a href="/logout" class="nav-link"><i class="fas fa-sign-out-alt"></i> Logout</a>
+        </div>
+    </nav>
+
+    {% if errors %}
+            <div class="validation-errors">
+                {% for field, fieldErrors in errors %}
+                    {% for error in fieldErrors %}
+                        <div class="alert alert-danger">
+                            <i class="fas fa-exclamation-circle"></i>
+                            {{ error }}
+                        </div>
+                    {% endfor %}
+                {% endfor %}
+            </div>
+        {% endif %}
+
+
+
+    <div class="container">
+        <div class="article-navigation">
+            <a href="/articles" class="button button-secondary">
+                <i class="fas fa-arrow-left"></i> Back to Articles
+            </a>
+        </div>
+
+        <article class="article-full">
+            <header class="article-header">
+                <h1>{{ article.title }}</h1>
+                <div class="article-meta">
+                    <span class="article-author">
+                        <i class="far fa-user"></i>
+                        {{ article.username }}
+                    </span>
+                    <span class="article-date">
+                        <i class="far fa-calendar-alt"></i>
+                        {{ article.created_at|date("F j, Y") }}
+                    </span>
+                    <span class="article-reading-time">
+                        <i class="far fa-clock"></i>
+                        {{ (article.content|length / 200)|round }} min read
+                    </span>
+                </div>
+            </header>
+
+            <div class="article-content">
+                {{ article.content|nl2br }}
+            </div>
+
+        </article>
+    </div>
+</body>
+</html>

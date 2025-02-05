@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DevBlog - Share Your Knowledge</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <i class="fas fa-code"></i>
+            <span>DevBlog</span>
+        </div>
+        <div class="navbar-menu">
+            <a href="/" class="nav-link active"><i class="fas fa-home"></i> Home</a>
+            <a href="/articles" class="nav-link"><i class="fas fa-newspaper"></i> Articles</a>
+            {% if user %}
+                <a href="/logout" class="nav-link"><i class="fas fa-sign-out-alt"></i> Logout</a>
+            {% else %}
+                <a href="/login" class="nav-link"><i class="fas fa-sign-in-alt"></i> Login</a>
+                <a href="/signup" class="nav-link"><i class="fas fa-user-plus"></i> Sign Up</a>
+            {% endif %}
+        </div>
+    </nav>
+
+    {% if errors %}
+            <div class="validation-errors">
+                {% for field, fieldErrors in errors %}
+                    {% for error in fieldErrors %}
+                        <div class="alert alert-danger">
+                            <i class="fas fa-exclamation-circle"></i>
+                            {{ error }}
+                        </div>
+                    {% endfor %}
+                {% endfor %}
+            </div>
+        {% endif %}
+
+         
+
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Welcome to DevBlog</h1>
+            <p>Share your knowledge, learn from others, and grow together</p>
+            <div class="hero-buttons">
+                <a href="/articles" class="button button-primary">
+                    <i class="fas fa-newspaper"></i> Browse Articles
+                </a>
+                <a href="/articles/create" class="button button-secondary">
+                    <i class="fas fa-pen"></i> Start Writing
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-pen-fancy"></i>
+                    <h3>Write Articles</h3>
+                    <p>Share your knowledge and experiences with our community</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-comments"></i>
+                    <h3>Engage</h3>
+                    <p>Connect with other developers and exchange ideas</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Learn</h3>
+                    <p>Discover new technologies and best practices</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 DevBlog. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

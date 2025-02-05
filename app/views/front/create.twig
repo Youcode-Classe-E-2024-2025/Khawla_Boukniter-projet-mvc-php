@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Article | DevBlog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body class="admin-body">
+
+    
+
+        <main class="admin-main">
+            <header class="admin-header">
+                <h1>Create New Article</h1>
+                <a href="/articles" class="button button-secondary">
+                    <i class="fas fa-arrow-left"></i> Back to Articles
+                </a>
+            </header>
+
+            {% if errors %}
+            <div class="validation-errors">
+                {% for field, fieldErrors in errors %}
+                    {% for error in fieldErrors %}
+                        <div class="alert alert-danger">
+                            <i class="fas fa-exclamation-circle"></i>
+                            {{ error }}
+                        </div>
+                    {% endfor %}
+                {% endfor %}
+            </div>
+        {% endif %}
+
+        
+
+            <form class="article-form" method="POST" action="/articles/create">
+                <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+
+                <div class="form-group">
+                    <label>Title</label>
+                    <input type="text" name="title" class="form-control" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Content</label>
+                    <textarea name="content" class="form-control" required></textarea>
+                </div>
+
+                <div class="form-actions">
+                    <button type="button" class="button button-secondary" onclick="history.back()">Cancel</button>
+                    <button type="submit" class="button button-primary">
+                        <i class="fas fa-save"></i> Save Article
+                    </button>
+                </div>
+            </form>
+        </main>
+</body>
+</html>
