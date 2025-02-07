@@ -16,21 +16,47 @@ class Logger
         }
     }
 
+    /**
+     * Logs an informational message
+     * 
+     * @param string $message Message to log
+     * @return void
+     */
     public function info(string $message): void
     {
         $this->log('INFO', $message);
     }
 
+
+    /**
+     * Logs an error message
+     * 
+     * @param string $message Message to log
+     * @return void
+     */
     public function error(string $message): void
     {
         $this->log('ERROR', $message);
     }
 
+    /**
+     * Logs a debug message
+     * 
+     * @param string $message Message to log
+     * @return void
+     */
     public function debug(string $message): void
     {
         $this->log('DEBUG', $message);
     }
 
+    /**
+     * Writes a formatted log entry to the log file
+     * 
+     * @param string $level Log level (INFO, ERROR, DEBUG)
+     * @param string $message Message to log
+     * @return void
+     */
     private function log(string $level, string $message): void
     {
         $date = date('Y-m-d H:i:s');

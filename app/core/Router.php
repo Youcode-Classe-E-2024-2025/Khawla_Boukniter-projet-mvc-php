@@ -6,6 +6,14 @@ class Router
 {
     private array $routes = [];
 
+    /**
+     * Adds a new route to the routing table
+     * 
+     * @param string $method HTTP method (GET, POST, etc.)
+     * @param string $path URL path pattern
+     * @param array $handler Controller and method to handle the route
+     * @return void
+     */
     public function addRoute(string $method, string $path, array $handler)
     {
         $this->routes[] = [
@@ -15,6 +23,13 @@ class Router
         ];
     }
 
+    /**
+     * Extracts parameters from URL based on route pattern
+     * 
+     * @param string $routePath Original route pattern
+     * @param string $requestPath Actual request URL
+     * @return array|null Matched parameters or null if no match
+     */
     private function extractParams(string $routePath, string $requestPath)
     {
         $pattern = preg_replace('/\{(\w+)\}/', '(?P<$1>[^/]+)', $routePath);
@@ -27,6 +42,14 @@ class Router
         return null;
     }
 
+    /**
+     * Dispatches request to appropriate controller
+     * 
+     * @param string $method HTTP request method
+     * @param string $uri Request URI
+     * @return mixed Controller response
+     * @throws \Exception When route not found
+     */
     public function dispatch($method, $uri)
     {
         $uri = explode('?', $uri)[0];
@@ -46,6 +69,13 @@ class Router
         throw new \Exception('Route not found');
     }
 
+
+    /**
+     * Converts route pattern to regex pattern
+     * 
+     * @param string $path Route path pattern
+     * @return string Regex pattern for matching
+     */
     private function convertPattern($path)
     {
         $pattern = str_replace('/', '\/', $path);

@@ -7,6 +7,13 @@ class Validator
     private array $errors = [];
     private array $data;
 
+    /**
+     * Validates data against specified rules
+     * 
+     * @param array $data Data to validate
+     * @param array $rules Validation rules
+     * @return bool Validation result
+     */
     public function validate(array $data, array $rules): bool
     {
         $this->data = $data;
@@ -26,6 +33,13 @@ class Validator
         return empty($this->errors);
     }
 
+    /**
+     * Validates a single field against a rule
+     * 
+     * @param string $field Field name
+     * @param string $rule Validation rule
+     * @return void
+     */
     private function validateField(string $field, string $rule): void
     {
         $value = $this->data[$field] ?? '';
@@ -45,6 +59,14 @@ class Validator
         }
     }
 
+    /**
+     * Validates a field with a parameterized rule
+     * 
+     * @param string $field Field name
+     * @param string $rule Rule name
+     * @param string $parameter Rule parameter
+     * @return void
+     */
     private function validateFieldWithParameter(string $field, string $rule, string $parameter): void
     {
         $value = $this->data[$field] ?? '';
@@ -58,11 +80,23 @@ class Validator
         }
     }
 
+    /**
+     * Adds an error message for a field
+     * 
+     * @param string $field Field name
+     * @param string $message Error message
+     * @return void
+     */
     private function addError(string $field, string $message): void
     {
         $this->errors[$field][] = $message;
     }
 
+    /**
+     * Returns all validation errors
+     * 
+     * @return array Array of validation errors
+     */
     public function getErrors(): array
     {
         return $this->errors;

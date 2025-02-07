@@ -17,6 +17,14 @@ class Auth
         $this->validator = new Validator();
     }
 
+    /**
+     * Creates a new user account
+     * 
+     * @param string $username User's chosen username
+     * @param string $email User's email address
+     * @param string $password User's password
+     * @return bool Success status of signup operation
+     */
     public function signup(string $username, string $email, string $password): bool
     {
 
@@ -36,6 +44,14 @@ class Auth
         return false;
     }
 
+
+    /**
+     * Authenticates user and creates session
+     * 
+     * @param string $email User's email address
+     * @param string $password User's password
+     * @return bool Success status of login operation
+     */
     public function login(string $email, string $password): bool
     {
         $user = $this->db->find("SELECT * FROM users WHERE email = ?", [$email]);
@@ -54,16 +70,31 @@ class Auth
         return false;
     }
 
+    /**
+     * Checks if user is currently logged in
+     * 
+     * @return bool User's login status
+     */
     public function isLoggedIn(): bool
     {
         return $this->session->get('user_id') !== null;
     }
 
+    /**
+     * Checks if current user has admin role
+     * 
+     * @return bool User's admin status
+     */
     public function isAdmin(): bool
     {
         return $this->session->get('user_role') === 'admin';
     }
 
+    /**
+     * Retrieves current logged-in user's data
+     * 
+     * @return array|null User data or null if not logged in
+     */
     public function getCurrentUser()
     {
         if ($this->isLoggedIn()) {
@@ -72,6 +103,11 @@ class Auth
         return null;
     }
 
+    /**
+     * Terminates user session and logs out
+     * 
+     * @return void
+     */
     public function logout(): void
     {
         $this->session->destroy();
